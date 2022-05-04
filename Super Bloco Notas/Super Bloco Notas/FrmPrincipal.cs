@@ -16,5 +16,13 @@ namespace Super_Bloco_Notas
         {
             InitializeComponent();
         }
+
+        private void novoDocumentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmFilhacs f = new FrmFilhacs();
+            f.Text = String.Format("Novo documento - {0}", this.MdiChildren.Length + 1 );
+            f.MdiParent = this;
+            f.Show();
+        }
     }
 }

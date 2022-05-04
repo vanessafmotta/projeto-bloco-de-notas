@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmFilhacs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFilhacs.Designer.cs">
+      <DependentUpon>FrmFilhacs.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmFilhacs.resx">
+      <DependentUpon>FrmFilhacs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +88,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novo-documento.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__open %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__salvar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__sair.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__files %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__files %281%29 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__files %281%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnyConv.com__sair %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_folder_13775.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

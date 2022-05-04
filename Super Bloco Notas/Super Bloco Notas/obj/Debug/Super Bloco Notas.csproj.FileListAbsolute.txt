@@ -1,0 +1,12 @@
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\bin\Debug\Super Bloco Notas.exe.config
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\bin\Debug\Super Bloco Notas.exe
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\bin\Debug\Super Bloco Notas.pdb
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super Bloco Notas.csproj.AssemblyReference.cache
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super Bloco Notas.csproj.SuggestedBindingRedirects.cache
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super_Bloco_Notas.FrmFilhacs.resources
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super_Bloco_Notas.FrmPrincipal.resources
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super_Bloco_Notas.Properties.Resources.resources
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super Bloco Notas.csproj.GenerateResource.cache
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super Bloco Notas.csproj.CoreCompileInputs.cache
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super Bloco Notas.exe
+C:\Users\vanny\Desktop\bloco-de-notas\Super Bloco Notas\Super Bloco Notas\obj\Debug\Super Bloco Notas.pdb
