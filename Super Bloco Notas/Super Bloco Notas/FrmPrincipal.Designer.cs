@@ -31,14 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.documentosAbertosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoDocumentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.documentosAbertosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,21 +67,6 @@
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.arquivoToolStripMenuItem.Text = "&Arquivo";
             // 
-            // editarToolStripMenuItem
-            // 
-            this.editarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.copiarToolStripMenuItem,
-            this.colarToolStripMenuItem});
-            this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
-            this.editarToolStripMenuItem.Text = "&Editar";
-            // 
-            // documentosAbertosToolStripMenuItem
-            // 
-            this.documentosAbertosToolStripMenuItem.Name = "documentosAbertosToolStripMenuItem";
-            this.documentosAbertosToolStripMenuItem.Size = new System.Drawing.Size(161, 24);
-            this.documentosAbertosToolStripMenuItem.Text = "&Documentos abertos";
-            // 
             // novoDocumentoToolStripMenuItem
             // 
             this.novoDocumentoToolStripMenuItem.Image = global::Super_Bloco_Notas.Properties.Resources.new_folder_13775;
@@ -98,6 +83,7 @@
             this.abrirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.abrirToolStripMenuItem.Size = new System.Drawing.Size(261, 26);
             this.abrirToolStripMenuItem.Text = "&Abrir";
+            this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
             // 
             // salvarToolStripMenuItem
             // 
@@ -106,6 +92,7 @@
             this.salvarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.salvarToolStripMenuItem.Size = new System.Drawing.Size(261, 26);
             this.salvarToolStripMenuItem.Text = "&Salvar";
+            this.salvarToolStripMenuItem.Click += new System.EventHandler(this.salvarToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
@@ -114,6 +101,15 @@
             this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(261, 26);
             this.sairToolStripMenuItem.Text = "Sai&r";
+            // 
+            // editarToolStripMenuItem
+            // 
+            this.editarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.copiarToolStripMenuItem,
+            this.colarToolStripMenuItem});
+            this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.editarToolStripMenuItem.Text = "&Editar";
             // 
             // copiarToolStripMenuItem
             // 
@@ -128,6 +124,12 @@
             this.colarToolStripMenuItem.Name = "colarToolStripMenuItem";
             this.colarToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
             this.colarToolStripMenuItem.Text = "C&olar";
+            // 
+            // documentosAbertosToolStripMenuItem
+            // 
+            this.documentosAbertosToolStripMenuItem.Name = "documentosAbertosToolStripMenuItem";
+            this.documentosAbertosToolStripMenuItem.Size = new System.Drawing.Size(161, 24);
+            this.documentosAbertosToolStripMenuItem.Text = "&Documentos abertos";
             // 
             // FrmPrincipal
             // 
